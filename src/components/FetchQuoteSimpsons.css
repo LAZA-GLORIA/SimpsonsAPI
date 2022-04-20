@@ -1,0 +1,30 @@
+.QuoteCard {
+  height: 45em;
+  margin: revert;
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(235, 235, 238, 0.15);
+  font-size: 1em;
+}
+
+img {
+  width: inherit;
+}
+
+
+@media (min-width: 740px) {
+.QuoteCard {
+    padding: 1.25em;
+    margin: auto;
+    width: 35em;
+    height: 25em;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(235, 235, 238, 0.15);
+    font-size: 3em;
+  }
+
+  img {
+    width: initial;
+  }
+}

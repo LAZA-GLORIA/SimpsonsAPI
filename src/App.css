@@ -1,0 +1,38 @@
+:root {
+  --primary-color : #e91313;
+  --secondary-color : #acafcb;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+button {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 30em;
+    margin-right: 1.5em;
+    font-size: 1.5em;
+}
+
+@media (min-width: 740px) {
+  .App {
+  text-align: center;
+}
+
+button {
+    width: 10em;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 30em;
+    height: 2.5em;
+    margin: 1em;
+    font-size: 2em;
+    }
+ }
