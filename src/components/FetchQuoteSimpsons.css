@@ -14,17 +14,17 @@ img {
 
 @media (min-width: 740px) {
 .QuoteCard {
-    padding: 1.25em;
     margin: auto;
-    width: 35em;
-    height: 25em;
+    width: 30em;
+    height: 35em;
     border: 1px solid var(--primary-color);
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgba(235, 235, 238, 0.15);
-    font-size: 3em;
+    font-size: 1.2em;
   }
 
   img {
     width: initial;
+    height: min-content;
   }
 }

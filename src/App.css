@@ -17,7 +17,7 @@ button {
     color: var(--primary-color);
     border-radius: 30em;
     margin-right: 1.5em;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 @media (min-width: 740px) {
@@ -33,6 +33,6 @@ button {
     border-radius: 30em;
     height: 2.5em;
     margin: 1em;
-    font-size: 2em;
+    font-size: 1em;
     }
  }
